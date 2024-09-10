@@ -1,5 +1,5 @@
 ------------------
-> Hola gracias por visitar mi repositorio no te olvides de darle una 🌟así me apoyas mucho. 
+> Les agradecería si dejarán su estrellita ❤️
 ------------------
 
 
