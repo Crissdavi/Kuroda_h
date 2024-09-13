@@ -28,7 +28,16 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       if (!isROwner) {
         global.dfail('rowner', m, conn)
         throw false
-      }
+       }
+     }
+      chat.modoadmin = isEnable;
+      break;
+    case 'autosticker':
+      if (m.isGroup) {
+        if (!(isAdmin || isROwner || isOwner)) {
+          global.dfail('admin', m, conn);
+          throw false;
+        }
       global.opts['autoread'] = isEnable
       break
 
