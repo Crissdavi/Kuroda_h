@@ -105,6 +105,7 @@ export async function handler(chatUpdate) {
                     onlyLatinos: false,
                     nsfw: false, 
                     expired: 0, 
+                    modoadmin: false,
                 }
             var settings = global.db.data.settings[this.user.jid]
             if (typeof settings !== 'object') global.db.data.settings[this.user.jid] = {}
