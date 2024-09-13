@@ -93,7 +93,8 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
 *Tipo :* antilink 
 *Descripción :* Des/Activa el *AntiLink* para Grupos
 
-🐉孫ՏᴏɴᏀᴏᴋᴜ孫🐉
+*Tipo :* Modoadmin 
+*Descripción:* Des/activa el *Modoadmin* para grupos 
 
 *• Ejemplo:*
 *- ${usedPrefix + command}* welcome
